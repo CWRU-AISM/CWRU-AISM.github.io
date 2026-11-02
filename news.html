@@ -1,0 +1,13 @@
+---
+layout: default
+title: News
+permalink: /news/
+---
+<div class="page">
+  <h1>News</h1>
+  <ul class="news">
+    {% for n in site.data.news %}
+    <li><time>{{ n.date }}</time><p>{{ n.text }}</p></li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,44 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+<div class="page">
+  <h1>Research</h1>
+  <p class="lede">We augment state-of-the-art machine learning techniques with expert knowledge from the manufacturing domain such that the models driving analytics and decisions on the shop floor are trustworthy, generalize to different machines and materials, and are deployable.</p>
+
+  {% for a in site.data.research %}
+  <section class="area" id="{{ a.id }}">
+    <div>
+      <h2>{{ a.title }}</h2>
+      {% if a.media %}
+      <figure>
+        {% if a.video %}
+        <video muted loop playsinline preload="none" data-autoplay
+          poster="{{ '/assets/media/grid/' | append: a.media | append: '.jpg' | relative_url }}"
+          src="{{ '/assets/media/grid/' | append: a.media | append: '.mp4' | relative_url }}"></video>
+        {% else %}
+        <img src="{{ '/assets/img/research/' | append: a.media | append: '.jpg' | relative_url }}" alt="" loading="lazy">
+        {% endif %}
+      </figure>
+      {% endif %}
+      <p>{{ a.summary }}</p>
+      {% if a.funding %}<p class="funding">Supported by {{ a.funding }}</p>{% endif %}
+    </div>
+    <ul class="projects">
+      {% for p in a.projects %}
+      <li>
+        <h3>{{ p.title }}</h3>
+        <p>{{ p.text }}</p>
+        {% if p.papers %}<ul class="papers{% if p.papers.size > 1 %} numbered{% endif %}">
+          {% for x in p.papers %}<li><a href="{{ x.url }}">{{ x.title }}</a> <b>{{ x.venue }}</b>
+            {% if x.links %}<span class="linkrow">{% for l in x.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</span>{% endif %}</li>
+          {% endfor %}
+        </ul>{% endif %}
+        {% if p.links %}<p class="linkrow">{% for l in p.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>

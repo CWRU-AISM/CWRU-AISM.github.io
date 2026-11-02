@@ -1,0 +1,47 @@
+# Home page grid, four per row, in reading order. Keep the count a multiple of 4.
+# Each tile lives in assets/media/grid/ as <file>.mp4 with a <file>.jpg poster.
+# A still photo is just <file>.jpg; mark it with still: true.
+# title shows on hover and is read by screen readers. url is optional.
+# README.md has the ffmpeg commands for making new tiles.
+
+- file: spark_ribbon
+  title: A SPARK score medley
+  url: https://cwru-aism.github.io/spark-page/
+- file: quan_manim
+  title: Quaternion Approximate Networks
+  url: https://cwru-aism.github.io/QUANpaper/
+- file: spark_real
+  title: SPARK on Franka FR3 and UR10e arms
+  url: https://cwru-aism.github.io/spark-page/
+- file: ded
+  title: Wire-laser directed energy deposition
+  url: /research/#sensing
+
+- file: action_atlas
+  title: Action Atlas, interpretability of vision-language-action models
+  url: https://cwru-aism.github.io/vla-interp-page/
+- file: hybrid_cell
+  still: true
+  title: Hybrid manufacturing cell with a collaborative robot
+  url: /research/#sensing
+- file: tempo_humanoid
+  title: SPARK-Tempo, a Unitree G1 playing guitar
+- file: wam_diagrams
+  title: How world-action models use their imagined future
+  url: https://bryceag11.github.io/blog/wam-imagination/
+
+- file: triangulang
+  title: TrianguLang, pose-free 3D localization
+  url: https://cwru-aism.github.io/triangulang/
+- file: weld_specimen
+  still: true
+  title: Weld specimen for quality prediction
+  url: /research/#quality
+- file: motor_rig
+  still: true
+  title: Machinery fault simulator for predictive maintenance
+  url: /research/#maintenance
+- file: ded_beads
+  still: true
+  title: Deposited beads and walls from wire-laser DED
+  url: /research/#sensing

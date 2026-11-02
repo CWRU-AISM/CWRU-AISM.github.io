@@ -1,0 +1,43 @@
+# Partners drawn on the home page globe. The first entry is the lab itself.
+# lat/lon in degrees (north and east positive).
+
+- name: AISM Lab, Case Western Reserve University
+  place: Cleveland, OH
+  lat: 41.504
+  lon: -81.608
+  url: https://case.edu/engineering/
+- name: General Motors
+  place: Warren, MI
+  lat: 42.514
+  lon: -83.014
+  url: https://www.gm.com/
+- name: University of Kentucky
+  place: Lexington, KY
+  lat: 38.031
+  lon: -84.504
+  url: https://www.engr.uky.edu/
+- name: NSF HAMMER Engineering Research Center
+  place: Columbus, OH
+  lat: 40.002
+  lon: -83.015
+  url: https://hammer.osu.edu/
+- name: Miller Electric
+  place: Appleton, WI
+  lat: 44.262
+  lon: -88.415
+  url: https://www.millerwelds.com/
+- name: NVIDIA
+  place: Santa Clara, CA
+  lat: 37.371
+  lon: -121.964
+  url: https://www.nvidia.com/
+- name: GE Research
+  place: Niskayuna, NY
+  lat: 42.803
+  lon: -73.873
+  url: https://www.ge.com/research/
+- name: Dongguk University
+  place: Seoul, South Korea
+  lat: 37.558
+  lon: 126.999
+  url: https://www.dongguk.edu/eng/

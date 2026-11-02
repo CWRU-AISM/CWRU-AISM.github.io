@@ -1,0 +1,69 @@
+# Lab members, shown on the People page in the group order below.
+# A group with no members is hidden automatically.
+#
+# Per person:
+#   name:     required
+#   photo:    file in assets/img/people/ (leave out for a blank avatar)
+#   website / scholar / linkedin: the photo and name link to the first one present, in that order
+#   note:     optional short line, e.g. a research topic or where an alum went
+
+groups:
+  - title: Postdoctoral Researchers
+    members: []
+
+  - title: PhD Students
+    members:
+      - name: Xijia Zhao
+        photo: xijia-zhao.jpg
+        website: https://xijiazhao.github.io/
+        note: Self-supervised learning and edge AI for manufacturing
+      - name: Bryce Grant
+        photo: bryce-grant.jpg
+        website: https://bryceag11.github.io/
+        note: Robot learning and interpretability of robot policies
+      - name: Krittin "Mig" Kulrattanaruks
+        photo: krittin-kulrattanaruks.jpg
+        linkedin: https://www.linkedin.com/in/krittin-kulrat/
+        note: Predictive maintenance and machinery fault diagnosis
+      - name: Jiyawei "Yankee" Yang
+        linkedin: https://www.linkedin.com/in/jiyawei-yang-3422a3324/
+        note: Ultrasonic imaging of internal defects
+      - name: Chenxing Liu
+        photo: chenxing-liu.jpg
+        linkedin: https://www.linkedin.com/in/chenxing-liu-a15916409/
+        note: Wire-laser directed energy deposition
+
+  - title: Collaborators
+    members: []
+
+  - title: Master's Students
+    members: []
+
+  - title: Undergraduate Researchers
+    members:
+      - name: Aryeh Rothenberg
+        photo: aryeh-rothenberg.jpg
+        linkedin: https://www.linkedin.com/in/aryeh-rothenberg/
+      - name: Logan Senning
+        photo: logan-senning.jpg
+        linkedin: https://www.linkedin.com/in/logan-senning/
+
+# Alumni are shown as a plain list, no photos.
+alumni:
+  - title: PhD and Postdoc Alumni
+    members:
+      - name: Izaz Raouf
+        degree: Postdoc
+        now: Research Scientist, General Motors
+        linkedin: https://www.linkedin.com/in/izaz-r-448263209/
+      - name: Matthew Russell
+        degree: PhD
+        now: Technical Lead, Leidos
+        linkedin: https://www.linkedin.com/in/matthew-b-russell/
+
+  - title: MS and Undergraduate Alumni
+    members:
+      - name: Minh Le
+        degree: MS 2026, co-advised with John Lewandowski
+      - name: Ethan York
+        degree: MS

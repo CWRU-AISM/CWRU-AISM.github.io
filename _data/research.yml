@@ -1,0 +1,152 @@
+# Research areas on the Research page, in this order.
+# short: one line for the home page, which uses the same order.
+# media: an image in assets/img/research/ or a clip in assets/media/grid/ (video: true).
+# Each project (topic) takes title, text, optional papers (title, venue, url, links), and optional links.
+
+- id: maintenance
+  title: Predictive maintenance
+  short: Fault diagnosis with little labeled data, on affordable edge hardware.
+  summary: Downtime costs money and labelled fault data rarely exists. We engineer self-supervised, federated and continual learning approaches to machine condition monitoring, as well as low-cost edge hardware to enable affordable monitoring for small and medium manufacturers.
+  media: motor-rig
+  funding: NSF PFI-TT 2535434, NSF CMMI-2015889
+  projects:
+  - title: Context-aware self-supervised learning
+    text: Operating-condition metadata used as a weak training signal for fault diagnosis without fault labels.
+    papers:
+    - title: 'Context-Aware Self-Supervised Learning for Machinery Fault Diagnosis: Extending Barlow Twins with Operating Condition Awareness'
+      venue: Manufacturing Letters 2026
+      url: https://doi.org/10.1016/j.mfglet.2026.08.027
+  - title: Federated and cross-machine monitoring
+    text: Personalized federated learning and cross-robot open-set fault detection that adapt from normal data only.
+    papers:
+    - title: A generalizable framework of personalized federated learning for condition monitoring of rotating machinery
+      venue: Advanced Engineering Informatics 2026
+      url: https://doi.org/10.1016/j.aei.2026.105302
+    - title: Cross-robot open-set fault detection via normal-only adaptation and residual latent-space alignment
+      venue: Robotics and Computer-Integrated Manufacturing 2026
+      url: https://doi.org/10.1016/j.rcim.2026.103442
+    - title: Maximizing model generalization for machine condition monitoring with Self-Supervised Learning and Federated Learning
+      venue: Journal of Manufacturing Systems 2023
+      url: https://doi.org/10.1016/j.jmsy.2023.09.008
+  - title: Edge-cloud monitoring
+    text: A deployable edge computing pipeline for condition monitoring on the shop floor.
+    papers:
+    - title: A Deployable Edge Computing Solution for Machine Condition Monitoring
+      venue: I2MTC 2024
+      url: https://doi.org/10.1109/i2mtc60896.2024.10560795
+- id: robotics
+  title: Robot learning for manufacturing automation
+  short: Robots that plan in verifiable steps, predict outcomes, and explain their decisions.
+  summary: We construct robots whose behavior can be verified, interrupted, and repaired.
+  media: spark_real
+  video: true
+  funding: NSF FRR 2617581 (industrial collaborator Miller Electric), NSF NRI CMMI-2024614, NSF GRFP 2437833, NVIDIA Academic Grant
+  projects:
+  - title: Embodied agentic robots
+    text: Robots that plan in steps they can check and recover from, on different arms.
+    papers:
+    - title: Sequential Planning via Anchored Robotic Keypoints
+      venue: Preprint
+      url: https://cwru-aism.github.io/spark-page/
+      links:
+      - label: arXiv
+        url: https://arxiv.org/abs/2606.30613
+      - label: Project page
+        url: https://cwru-aism.github.io/spark-page/
+  - title: Anticipatory robotic welding
+    text: World models that predict how a weld will form, and planners that act on them. A new NSF project with the University of Kentucky and Miller Electric.
+    links:
+    - label: NSF award 2617581
+      url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2617581
+  - title: Interpretability of robot policies
+    text: What robot policies and world models rely on when they act.
+    papers:
+    - title: 'Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models'
+      venue: NeurIPS 2026
+      url: https://cwru-aism.github.io/vla-interp-page/
+      links:
+      - label: arXiv
+        url: https://arxiv.org/abs/2603.19233
+      - label: Project page
+        url: https://cwru-aism.github.io/vla-interp-page/
+      - label: Code
+        url: https://github.com/CWRU-AISM/action-atlas
+    - title: 'Gluing Local Contexts into Global Meaning: A Sheaf-Theoretic Decomposition of Transformer Representations'
+      venue: NeurIPS 2026
+      url: https://cwru-aism.github.io/gluing-lc-page/
+      links:
+      - label: Project page
+        url: https://cwru-aism.github.io/gluing-lc-page/
+      - label: Code
+        url: https://github.com/CWRU-AISM/gluing-lc
+    - title: What world-action models do with their imagined futures
+      venue: Blog post
+      url: https://bryceag11.github.io/blog/wam-imagination/
+  - title: Geometry-aware perception
+    text: Perception that accounts for rotation and for geometry across camera views.
+    papers:
+    - title: Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection
+      venue: IROS 2025, oral
+      url: https://doi.org/10.1109/iros60139.2025.11247562
+      links:
+      - label: arXiv
+        url: https://arxiv.org/abs/2509.05512
+      - label: Project page
+        url: https://cwru-aism.github.io/QUANpaper/
+      - label: Code
+        url: https://github.com/bryceag11/QUAN_ultralytics
+    - title: 'TrianguLang: Geometry-Aware Semantic Consensus for Pose-Free 3D Localization'
+      venue: Preprint
+      url: https://cwru-aism.github.io/triangulang/
+      links:
+      - label: arXiv
+        url: https://arxiv.org/abs/2603.08096
+      - label: Project page
+        url: https://cwru-aism.github.io/triangulang/
+- id: quality
+  title: Generalizable machine learning for welding and quality prediction
+  short: Models that carry from the lab to the plant, built with General Motors.
+  summary: Models developed in the lab rarely survive the plant floor. Through work with General Motors on resistance spot and laser welding, we learn from massive quantities of unlabeled production data, estimate signals the plant has no resources to measure, and are developing a physics-informed foundation model for welding.
+  media: weld-specimen
+  funding: NSF CAREER CMMI-2533634, General Motors
+  projects:
+  - title: Learning from unlabeled plant data
+    text: Multi-level contrastive and masked pretraining on production welding signals, then fine-tuning with a small set of labels.
+    papers:
+    - title: 'Unleashing the power of unlabeled plant data: A hierarchical contrastive learning framework for dynamic manufacturing process monitoring'
+      venue: Journal of Manufacturing Systems 2025
+      url: https://doi.org/10.1016/j.jmsy.2025.10.001
+    - title: Harnessing unlabeled plant data and labeled lab data for enhanced quality prediction in laser welding
+      venue: Journal of Manufacturing Processes 2025
+      url: https://doi.org/10.1016/j.jmapro.2025.12.023
+  - title: Virtual sensing in resistance spot welding
+    text: Transformer models that generate force and displacement signals from dynamic resistance alone, so quality can be predicted on lines without those sensors.
+    papers:
+    - title: Transfer learning-enhanced transformer for virtual process sensing in resistance spot welding
+      venue: Manufacturing Letters 2025
+      url: https://doi.org/10.1016/j.mfglet.2025.06.199
+    - title: Virtual Sensing by Dense Encoder for Process Signals in Resistance Spot Welding
+      venue: ISFA 2024
+      url: https://doi.org/10.1115/isfa2024-140071
+  - title: Welding foundation model
+    text: A shared, physics-aware representation that transfers across machines, materials, and weld types with minimal recalibration.
+    papers:
+    - title: Applicable and generalizable machine learning for intelligent welding in automotive manufacturing
+      venue: Welding in the World 2025
+      url: https://doi.org/10.1007/s40194-025-01951-5
+- id: sensing
+  title: Sensing and imaging for process monitoring
+  short: Ultrasonic defect imaging and wire-laser deposition monitoring.
+  summary: 'Physical sensing is combined with learned models to understand what is happening inside a process: including internal defect reconstruction from ultrasonic data, and geometry and residual stress characterization in hybrid wire-laser deposition and milling.'
+  media: ded
+  video: true
+  funding: NSF HAMMER Engineering Research Center
+  projects:
+  - title: Generalizable ultrasonic imaging
+    text: Conditional normalizing flows that reconstruct defect images from raw ultrasonic signals in under 0.03 seconds and generalize to unseen materials and probes.
+    papers:
+    - title: Conditional Normalizing Flows for High-Resolution and Efficient Ultrasound Image Reconstruction
+      venue: IEEE Sensors Journal 2026
+      url: https://doi.org/10.1109/jsen.2026.3702503
+  - title: Wire-laser directed energy deposition
+    text: 3D scanning of bead, layer, and part geometry to correct dripping, wire stubbing, and accumulated height error, plus thermal-mechanical models of residual stress across deposition and milling.

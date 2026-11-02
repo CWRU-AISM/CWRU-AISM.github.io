@@ -1,0 +1,53 @@
+# Newest first. The home page shows the first five. Keep each item to one line.
+# text may contain HTML links.
+
+- date: Nov 2026
+  text: 'Prof. Wang gives the <a href="https://hammer.osu.edu/events/2026/11/hammer-colloquium-toward-generalizable-and-physics-aware-ai-intelligent-welding-dr.-peng-edward-wang">HAMMER Colloquium</a> at Ohio State on Nov 30.'
+
+- date: Oct 2026
+  text: 'Awarded an <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2617581">NSF FRR grant</a> on anticipatory robotics for welding, starting this month.'
+
+- date: Oct 2026
+  text: 'Izaz''s <a href="https://doi.org/10.1016/j.rcim.2026.103442">cross-robot fault detection paper</a> published in RCIM.'
+
+- date: Oct 2026
+  text: 'Mig and Izaz each published in <a href="https://doi.org/10.1016/j.mfglet.2026.08.027">Manufacturing Letters</a>.'
+
+- date: Sep 2026
+  text: '<a href="https://cwru-aism.github.io/vla-interp-page/">Action Atlas</a> and <a href="https://cwru-aism.github.io/gluing-lc-page/">Gluing Local Contexts</a> accepted to NeurIPS 2026.'
+
+- date: Jun 2026
+  text: 'Yankee''s <a href="https://doi.org/10.1109/jsen.2026.3702503">ultrasound imaging paper</a> published in IEEE Sensors Journal.'
+
+- date: May 2026
+  text: 'Minh Le graduated with his MS through the NSF HAMMER ERC.'
+
+- date: Apr 2026
+  text: 'Action Atlas presented as an oral at an ICLR 2026 workshop.'
+
+- date: Feb 2026
+  text: 'Prof. Wang co-edited a <a href="https://doi.org/10.1007/s40194-026-02370-w">Welding in the World special issue</a> on generative AI for intelligent welding.'
+
+- date: Dec 2025
+  text: 'Awarded an NVIDIA Academic Grant for <a href="https://cwru-aism.github.io/spark-page/">SPARK</a>.'
+
+- date: Oct 2025
+  text: 'Xijia''s <a href="https://doi.org/10.1016/j.jmsy.2025.10.001">contrastive learning paper</a> published in JMS.'
+
+- date: Jun 2025
+  text: '<a href="https://cwru-aism.github.io/QUANpaper/">QUAN</a> accepted as an oral at IROS 2025.'
+
+- date: Apr 2025
+  text: 'Bryce awarded the NSF Graduate Research Fellowship.'
+
+- date: Oct 2024
+  text: 'Awarded an <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2535434">NSF PFI-TT grant</a> on affordable predictive maintenance.'
+
+- date: Aug 2024
+  text: 'The lab moved to Case Western Reserve University.'
+
+- date: 2024
+  text: 'Prof. Wang received the ISFA Young Investigator Award.'
+
+- date: 2023
+  text: 'Prof. Wang received the NSF CAREER Award.'

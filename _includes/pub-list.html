@@ -1,0 +1,16 @@
+<ol class="pubs">
+  {% for p in include.items %}
+  <li>
+    <span class="pub-title">{{ p.title }}</span>
+    <span class="pub-authors">{{ p.authors }}</span>
+    {% assign y = p.year | append: "" %}<span class="pub-venue">In <i>{{ p.venue }}</i>{% unless p.venue contains y %}, {{ p.year }}{% endunless %}.</span>
+    {% if p.doi or p.project or p.arxiv or p.code or p.pdf %}<span class="linkrow">
+      {% if p.doi %}<a href="{{ p.doi }}">DOI</a>{% endif %}
+      {% if p.arxiv %}<a href="{{ p.arxiv }}">arXiv</a>{% endif %}
+      {% if p.pdf %}<a href="{{ p.pdf }}">PDF</a>{% endif %}
+      {% if p.project %}<a href="{{ p.project }}">Project page</a>{% endif %}
+      {% if p.code %}<a href="{{ p.code }}">Code</a>{% endif %}
+    </span>{% endif %}
+  </li>
+  {% endfor %}
+</ol>

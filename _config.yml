@@ -1,0 +1,25 @@
+title: AISM Lab
+description: Augmented Intelligence for Smart Manufacturing Lab at Case Western Reserve University, led by Prof. Peng (Edward) Wang.
+url: https://cwru-aism.github.io
+baseurl: ""
+
+github: https://github.com/CWRU-AISM
+
+pi:
+  name: Peng (Edward) Wang
+  email: pxw206@case.edu
+  office: Glennan 449B
+  labs: Glennan 444 and Olin 107
+  scholar: https://scholar.google.com/citations?user=4CbVWDcAAAAJ&hl=en
+  profile: https://case.edu/engineering/about/faculty-and-staff-directory/edward-wang
+
+exclude:
+  - README.md
+  - DESIGN.md
+  - Gemfile
+  - Gemfile.lock
+  - spec.md
+  - context
+  - headshots
+  - videos
+  - vendor

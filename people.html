@@ -1,0 +1,58 @@
+---
+layout: default
+title: People
+permalink: /people/
+---
+<div class="page">
+  <h1>People</h1>
+
+  <section class="pi">
+    <img src="{{ '/assets/img/people/peng-wang.jpg' | relative_url }}" alt="Peng (Edward) Wang">
+    <div class="prose">
+      <h2>{{ site.pi.name }}</h2>
+      <p class="role">Principal Investigator. Associate Professor of Mechanical and Aerospace Engineering</p>
+      <p>Dr. Wang's research expertise focuses on developing machine learning techniques for machine condition monitoring and diagnosis, process modeling and quality prediction, and collaborative robots. Dr. Wang earned his PhD from Case Western Reserve University in 2017, conducted his postdoctoral research at CWRU, and was a member of the University of Kentucky faculty from 2019 (where he founded the AISM Lab) before returning to CWRU in 2024.</p>
+      <p>Dr. Wang's honors include the NSF CAREER Award (2023), the Young Investigator Award from the International Symposium on Flexible Automation (2024), and the SME Outstanding Young Manufacturing Engineer Award (2022) as well as best paper awards from MSEC, NAMRC, CIRP CMS, and IEEE CASE. He currently serves on the editorial board as an Associate Editor of the Journal of Intelligent Manufacturing, the ASME Journal of Manufacturing Science and Engineering, the SME Journal of Manufacturing Processes, and Welding in the World.</p>
+      <p class="links">
+        <a href="mailto:{{ site.pi.email }}">{{ site.pi.email }}</a>
+        <a href="{{ site.pi.scholar }}">Google Scholar</a>
+        <a href="{{ site.pi.profile }}">CWRU profile</a>
+      </p>
+    </div>
+  </section>
+
+  {% for g in site.data.people.groups %}{% if g.members.size > 0 %}
+  <section class="group">
+    <h2>{{ g.title }}</h2>
+    <ul class="people">
+      {% for p in g.members %}
+      {% assign link = p.website | default: p.scholar | default: p.linkedin %}
+      <li class="person">
+        {% if link %}<a href="{{ link }}">{% endif %}
+        {% if p.photo %}<img class="avatar" src="{{ '/assets/img/people/' | append: p.photo | relative_url }}" alt="" loading="lazy">
+        {% else %}{% assign initials = p.name | slice: 0 %}<span class="avatar avatar-empty" aria-hidden="true">{{ initials }}</span>{% endif %}
+        <span class="person-name">{{ p.name }}</span>
+        {% if link %}</a>{% endif %}
+        {% if p.note %}<p class="person-note">{{ p.note }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}{% endfor %}
+
+  {% for g in site.data.people.alumni %}{% if g.members.size > 0 %}
+  <section class="group">
+    <h2>{{ g.title }}</h2>
+    <ul class="alumni">
+      {% for p in g.members %}
+      {% assign link = p.website | default: p.scholar | default: p.linkedin %}
+      <li>{% if link %}<a href="{{ link }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}{% if p.degree %}, {{ p.degree }}{% endif %}
+        {% if p.now %}<span class="muted"> Now {{ p.now }}</span>{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}{% endfor %}
+  <figure class="photo photo-end">
+    <img src="{{ '/assets/img/lab/group.jpg' | relative_url }}" alt="Lab members around a dinner table">
+  </figure>
+</div>

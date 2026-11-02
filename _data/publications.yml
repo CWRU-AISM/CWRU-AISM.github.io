@@ -1,0 +1,380 @@
+# Each entry: title, date (YYYY-MM-DD), authors, venue, type, year, and any of doi / pdf / arxiv / project / code.
+# type is one of: preprint (includes under review), conference, journal, chapter.
+# The Publications page sorts by date, newest first, so order in this file does not matter.
+
+- title: "Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models"
+  date: 2026-12-01
+  authors: "Bryce Grant, Xijia Zhao, Peng Wang"
+  venue: "NeurIPS 2026"
+  type: conference
+  year: 2026
+  arxiv: https://arxiv.org/abs/2603.19233
+  project: https://cwru-aism.github.io/vla-interp-page/
+  code: https://github.com/CWRU-AISM/action-atlas
+
+- title: "Gluing Local Contexts into Global Meaning: A Sheaf-Theoretic Decomposition of Transformer Representations"
+  date: 2026-12-01
+  authors: "Bryce Grant, Peng Wang"
+  venue: "NeurIPS 2026"
+  type: conference
+  year: 2026
+  project: https://cwru-aism.github.io/gluing-lc-page/
+  code: https://github.com/CWRU-AISM/gluing-lc
+
+- title: "Sequential Planning via Anchored Robotic Keypoints"
+  date: 2026-06-15
+  authors: "Bryce Grant, Aryeh Rothenberg, Logan Senning, Peng Wang"
+  venue: "arXiv preprint arXiv:2606.30613"
+  type: preprint
+  year: 2026
+  arxiv: https://arxiv.org/abs/2606.30613
+  project: https://cwru-aism.github.io/spark-page/
+
+- title: "TrianguLang: Geometry-Aware Semantic Consensus for Pose-Free 3D Localization"
+  date: 2026-03-09
+  authors: "Bryce Grant, Aryeh Rothenberg, Atri Banerjee, Peng Wang"
+  venue: "arXiv preprint arXiv:2603.08096"
+  type: preprint
+  year: 2026
+  arxiv: https://arxiv.org/abs/2603.08096
+  project: https://cwru-aism.github.io/triangulang/
+
+- title: "Cross-robot open-set fault detection via normal-only adaptation and residual latent-space alignment"
+  date: 2026-10-11
+  authors: "Izaz Raouf, Heung Soo Kim, Peng Wang"
+  venue: "Robotics and Computer-Integrated Manufacturing"
+  type: journal
+  year: 2026
+  doi: https://doi.org/10.1016/j.rcim.2026.103442
+
+- title: "Manipulating Feature Space for Generalizable Data Characterization in Federated Learning"
+  date: 2026-10-01
+  authors: "Izaz Raouf, Peng Wang"
+  venue: "Manufacturing Letters"
+  type: journal
+  year: 2026
+  doi: https://doi.org/10.1016/j.mfglet.2026.08.048
+
+- title: "Context-Aware Self-Supervised Learning for Machinery Fault Diagnosis: Extending Barlow Twins with Operating Condition Awareness"
+  date: 2026-10-01
+  authors: "Krittin Kulrattanaruks, Peng Wang"
+  venue: "Manufacturing Letters"
+  type: journal
+  year: 2026
+  doi: https://doi.org/10.1016/j.mfglet.2026.08.027
+
+- title: "A generalizable framework of personalized federated learning for condition monitoring of rotating machinery"
+  date: 2026-09-01
+  authors: "Izaz Raouf, Peng Wang"
+  venue: "Advanced Engineering Informatics"
+  type: journal
+  year: 2026
+  doi: https://doi.org/10.1016/j.aei.2026.105302
+
+- title: "Conditional Normalizing Flows for High-Resolution and Efficient Ultrasound Image Reconstruction"
+  date: 2026-06-16
+  authors: "Jiyawei Yang, Peng Wang"
+  venue: "IEEE Sensors Journal"
+  type: journal
+  year: 2026
+  doi: https://doi.org/10.1109/jsen.2026.3702503
+
+- title: "In-line laser weld surface inspection and abnormality detection via a human-knowledge integrated hybrid framework using 3D point cloud measurements"
+  date: 2026-06-09
+  authors: "Saleh Valizadeh Sotubadi, Ali Hosseinzadeh, Junjie Ma, Teresa J. Rinker, Hassan Ghassemi-Armaki, Masoud M. Pour, Jennifer T. Bracey, Blair E. Carlson, Peng Wang"
+  venue: "Journal of Intelligent Manufacturing"
+  type: journal
+  year: 2026
+  doi: https://doi.org/10.1007/s10845-026-02901-8
+
+- title: "Enhancing in-situ anomaly detection during wire arc additive manufacturing process through iterative automated label refinement"
+  date: 2026-04-01
+  authors: "Yue Cao, Giulio Mattera, Peng Wang, Yuming Zhang"
+  venue: "Journal of Manufacturing Processes"
+  type: journal
+  year: 2026
+  doi: https://doi.org/10.1016/j.jmapro.2026.03.044
+
+- title: "Generative AI for Predictive Maintenance for Manufacturing: A Survey"
+  date: 2026-01-01
+  authors: "Xingyu Li, Peng Wang, Xinyu Li, Jiho Lee, Quan Zhou, Martin Byung‐Guk Jun, Robert X. Gao"
+  venue: "Procedia CIRP"
+  type: journal
+  year: 2026
+  doi: https://doi.org/10.1016/j.procir.2025.09.012
+
+- title: "Harnessing unlabeled plant data and labeled lab data for enhanced quality prediction in laser welding"
+  date: 2025-12-22
+  authors: "Saleh Valizadeh Sotubadi, Ali Hosseinzadeh, Hassan Ghassemi-Armaki, Masoud M. Pour, Junjie Ma, Xijia Zhao, Jennifer T. Bracey, Blair E. Carlson, Peng Wang"
+  venue: "Journal of Manufacturing Processes"
+  type: journal
+  year: 2025
+  doi: https://doi.org/10.1016/j.jmapro.2025.12.023
+
+- title: "Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection"
+  date: 2025-10-19
+  authors: "Bryce Grant, Peng Wang"
+  venue: "IROS 2025"
+  type: conference
+  year: 2025
+  doi: https://doi.org/10.1109/iros60139.2025.11247562
+  arxiv: https://arxiv.org/abs/2509.05512
+  project: https://cwru-aism.github.io/QUANpaper/
+  code: https://github.com/bryceag11/QUAN_ultralytics
+
+- title: "Unleashing the power of unlabeled plant data: A hierarchical contrastive learning framework for dynamic manufacturing process monitoring"
+  date: 2025-10-07
+  authors: "Xijia Zhao, Hassan Ghassemi-Armaki, Blair E. Carlson, Peng Wang"
+  venue: "Journal of Manufacturing Systems"
+  type: journal
+  year: 2025
+  doi: https://doi.org/10.1016/j.jmsy.2025.10.001
+
+- title: "Development of a Digital Product Passport for iPads to Enhance Student Sustainability Practices"
+  date: 2025-06-24
+  authors: "Junwon Ko, Nnaemeka Okafor, Fazleena Badurdeen, Peng Wang"
+  venue: "Proceedings of the 6th Product Lifetimes and the Environment Conference (PLATE2025)"
+  type: conference
+  year: 2025
+  doi: https://doi.org/10.54337/plate2025-10418
+
+- title: "Transfer learning-enhanced transformer for virtual process sensing in resistance spot welding"
+  date: 2025-06-15
+  authors: "Ethan York, Xijia Zhao, Hassan Ghessemi-Armaki, Blair E. Carlson, Peng Wang"
+  venue: "Manufacturing Letters"
+  type: journal
+  year: 2025
+  doi: https://doi.org/10.1016/j.mfglet.2025.06.199
+
+- title: "Vector based acoustic sensing for mechanical fault classification through convolutional neural networks"
+  date: 2025-05-31
+  authors: "Srinivasa Rao Ippili, Matthew B. Russell, Peng Wang, David W. Herrin"
+  venue: "Noise Control Engineering Journal"
+  type: journal
+  year: 2025
+  doi: https://doi.org/10.3397/1/377324
+
+- title: "Applicable and generalizable machine learning for intelligent welding in automotive manufacturing"
+  date: 2025-02-07
+  authors: "Peng Wang, Hassan Ghassemi-Armaki, Masoud Pour, Xijia Zhao, Junjie Ma, Kianoosh Sattari, Blair E. Carlson"
+  venue: "Welding in the World"
+  type: journal
+  year: 2025
+  doi: https://doi.org/10.1007/s40194-025-01951-5
+
+- title: "Virtual Sensing by Dense Encoder for Process Signals in Resistance Spot Welding"
+  date: 2024-07-21
+  authors: "Joseph Kershaw, Peng Wang, Hassan Ghassemi-Armaki, Blair E. Carlson"
+  venue: "International Symposium on Flexible Automation (ISFA)"
+  type: conference
+  year: 2024
+  doi: https://doi.org/10.1115/isfa2024-140071
+
+- title: "Transfer learning with cross-domain adaptation of vibro-acoustic signals for electric motor mechanical fault detection and diagnosis."
+  date: 2024-07-14
+  authors: "Srinivasa Rao Ippili, Matthew B. Russell, Peng Wang, David W. Herrin"
+  venue: "NOISE-CON"
+  type: conference
+  year: 2024
+  doi: https://doi.org/10.3397/nc_2024_0118
+
+- title: "A Deployable Edge Computing Solution for Machine Condition Monitoring"
+  date: 2024-05-20
+  authors: "Xijia Zhao, Peng Wang"
+  venue: "IEEE International Instrumentation and Measurement Technology Conference"
+  type: conference
+  year: 2024
+  doi: https://doi.org/10.1109/i2mtc60896.2024.10560795
+
+- title: "Sensors for in-process and on-machine monitoring of machining operations"
+  date: 2024-05-16
+  authors: "Alborz Shokrani, Hakan Doğan, David Burian, Tobechukwu D. Nwabueze, Petr Kolar, Zhirong Liao, Ahmad Sadek, Roberto Teti, Peng Wang, Radu Pavel, Tony L. Schmitz"
+  venue: "CIRP Journal of Manufacturing Science and Technology"
+  type: journal
+  year: 2024
+  doi: https://doi.org/10.1016/j.cirpj.2024.05.001
+
+- title: "Efficient stochastic parametric estimation for lithium-ion battery performance degradation tracking and prognosis"
+  date: 2024-04-14
+  authors: "Lakmali Nadeesha Kumari, Peng Wang"
+  venue: "Journal of Manufacturing Systems"
+  type: journal
+  year: 2024
+  doi: https://doi.org/10.1016/j.jmsy.2024.03.017
+
+- title: "Smartphone App Design for Product Use Sustainability Evaluation"
+  date: 2024-01-01
+  authors: "Matthew B. Russell, Peter Hong, Luke Blakely, Mark Kirkham, Christian Enyoghasi, Peng Wang, Fazleena Badurdeen"
+  venue: "Springer book chapter"
+  type: chapter
+  year: 2024
+  doi: https://doi.org/10.1007/978-981-99-3897-1_26
+
+- title: "Ontology-integrated tuning of large language model for intelligent maintenance"
+  date: 2024-01-01
+  authors: "Peng Wang, John N. Karigiannis, Robert X. Gao"
+  venue: "CIRP Annals"
+  type: journal
+  year: 2024
+  doi: https://doi.org/10.1016/j.cirp.2024.04.012
+
+- title: "Advanced process characterization and machine learning-based correlations between interdiffusion layer and expulsion in spot welding"
+  date: 2023-12-18
+  authors: "Joseph Kershaw, Hassan Ghassemi-Armaki, Blair E. Carlson, Peng Wang"
+  venue: "Journal of Manufacturing Processes"
+  type: journal
+  year: 2023
+  doi: https://doi.org/10.1016/j.jmapro.2023.12.013
+
+- title: "Maximizing model generalization for machine condition monitoring with Self-Supervised Learning and Federated Learning"
+  date: 2023-09-28
+  authors: "Matthew B. Russell, Peng Wang"
+  venue: "Journal of Manufacturing Systems"
+  type: journal
+  year: 2023
+  doi: https://doi.org/10.1016/j.jmsy.2023.09.008
+
+- title: "Deep learning-based mechanical fault detection and diagnosis of electric motors using directional characteristics of acoustic signals"
+  date: 2023-09-01
+  authors: "Srinivasa Rao Ippili, Matthew B. Russell, Peng Wang, David W. Herrin"
+  venue: "Noise Control Engineering Journal"
+  type: journal
+  year: 2023
+  doi: https://doi.org/10.3397/1/377132
+
+- title: "Deep Learning Based Automatic Porosity Detection of Laser Powder Bed Fusion Additive Manufacturing"
+  date: 2023-08-23
+  authors: "Syed Ibn Mohsin, Behzad Farhang, Peng Wang, Yiran Yang, Narges Shayesteh Moghaddam, Fazleena Badurdeen"
+  venue: "Lecture Notes in Mechanical Engineering"
+  type: conference
+  year: 2023
+  doi: https://doi.org/10.1007/978-3-031-38241-3_37
+
+- title: "Normalizing Flows for Intelligent Manufacturing"
+  date: 2023-06-12
+  authors: "Matthew B. Russell, Peng Wang"
+  venue: "ASME International Manufacturing Science and Engineering Conference (MSEC)"
+  type: conference
+  year: 2023
+  doi: https://doi.org/10.1115/msec2023-101281
+
+- title: "Deep learning based mechanical fault detection and diagnosis of electric motors using directional characteristics of acoustic signals"
+  date: 2023-05-25
+  authors: "Srinivasa Rao Ippili, Matthew B. Russell, Peng Wang, David W. Herrin"
+  venue: "NOISE-CON"
+  type: conference
+  year: 2023
+  doi: https://doi.org/10.3397/nc_2023_0066
+
+- title: "Explainable machine learning for motor fault diagnosis"
+  date: 2023-05-22
+  authors: "Yuming Wang, Peng Wang"
+  venue: "IEEE International Instrumentation and Measurement Technology Conference"
+  type: conference
+  year: 2023
+  doi: https://doi.org/10.1109/i2mtc53148.2023.10175895
+
+- title: "Comparison and explanation of data-driven modeling for weld quality prediction in resistance spot welding"
+  date: 2023-04-01
+  authors: "Matthew B. Russell, Joseph Kershaw, Yu-Jun Xia, Tianle Lv, Yongbing Li, Hassan Ghassemi-Armaki, Blair E. Carlson, Peng Wang"
+  venue: "Journal of Intelligent Manufacturing"
+  type: journal
+  year: 2023
+  doi: https://doi.org/10.1007/s10845-023-02108-1
+
+- title: "Mixed-Up Experience Replay for Adaptive Online Condition Monitoring"
+  date: 2023-03-27
+  authors: "Matthew B. Russell, Peng Wang, Shaopeng Liu, Ibrahim S. Jawahir"
+  venue: "IEEE Transactions on Industrial Electronics"
+  type: journal
+  year: 2023
+  doi: https://doi.org/10.1109/tie.2023.3260351
+
+- title: "Improved Representations for Continual Learning of Novel Motor Health Conditions through Few-Shot Prototypical Networks"
+  date: 2022-08-20
+  authors: "Matthew B. Russell, Peng Wang"
+  venue: "IEEE International Conference on Automation Science and Engineering (CASE)"
+  type: conference
+  year: 2022
+  doi: https://doi.org/10.1109/case49997.2022.9926567
+
+- title: "Monitoring of Backside Weld Bead Width from High Dynamic Range Images Using CNN Network"
+  date: 2022-05-17
+  authors: "Rui Yu, Joseph Kershaw, Peng Wang, Yuming Zhang"
+  venue: "International Conference on Control, Decision and Information Technologies (CoDIT)"
+  type: conference
+  year: 2022
+  doi: https://doi.org/10.1109/codit55151.2022.9804041
+
+- title: "How to Accurately Monitor the Weld Penetration From Dynamic Weld Pool Serial Images Using CNN-LSTM Deep Learning Model?"
+  date: 2022-05-10
+  authors: "Rui Yu, Joseph Kershaw, Peng Wang, Yuming Zhang"
+  venue: "IEEE Robotics and Automation Letters"
+  type: journal
+  year: 2022
+  doi: https://doi.org/10.1109/lra.2022.3173659
+
+- title: "Data-driven process characterization and adaptive control in robotic arc welding"
+  date: 2022-01-01
+  authors: "Peng Wang, Joseph Kershaw, Matthew B. Russell, Jianjing Zhang, Yuming Zhang, Robert X. Gao"
+  venue: "CIRP Annals"
+  type: journal
+  year: 2022
+  doi: https://doi.org/10.1016/j.cirp.2022.04.046
+
+- title: "Physics-informed deep learning for signal compression and reconstruction of big data in industrial condition monitoring"
+  date: 2021-12-23
+  authors: "Matthew B. Russell, Peng Wang"
+  venue: "Mechanical Systems and Signal Processing"
+  type: journal
+  year: 2021
+  doi: https://doi.org/10.1016/j.ymssp.2021.108709
+
+- title: "Process modeling in laser powder bed fusion towards defect detection and quality control via machine learning: The state-of-the-art and research challenges"
+  date: 2021-12-09
+  authors: "Peng Wang, Yiran Yang, Narges Shayesteh Moghaddam"
+  venue: "Journal of Manufacturing Processes"
+  type: journal
+  year: 2021
+  doi: https://doi.org/10.1016/j.jmapro.2021.11.037
+
+- title: "Real-time recognition of arc weld pool using image segmentation network"
+  date: 2021-10-22
+  authors: "Rui Yu, Joseph Kershaw, Peng Wang, Yuming Zhang"
+  venue: "Journal of Manufacturing Processes"
+  type: journal
+  year: 2021
+  doi: https://doi.org/10.1016/j.jmapro.2021.10.019
+
+- title: "Hybrid machine learning-enabled adaptive welding speed control"
+  date: 2021-09-30
+  authors: "Joseph Kershaw, Rui Yu, Yuming Zhang, Peng Wang"
+  venue: "Journal of Manufacturing Processes"
+  type: journal
+  year: 2021
+  doi: https://doi.org/10.1016/j.jmapro.2021.09.023
+
+- title: "Hybrid machine learning for human action recognition and prediction in assembly"
+  date: 2021-05-26
+  authors: "Jianjing Zhang, Peng Wang, Robert X. Gao"
+  venue: "Robotics and Computer-Integrated Manufacturing"
+  type: journal
+  year: 2021
+  doi: https://doi.org/10.1016/j.rcim.2021.102184
+
+- title: "Stochastic modeling for tracking and prediction of gradual and transient battery performance degradation"
+  date: 2021-04-01
+  authors: "Matthew B. Russell, Evan M. King, Chadwick A. Parrish, Peng Wang"
+  venue: "Journal of Manufacturing Systems"
+  type: journal
+  year: 2021
+  doi: https://doi.org/10.1016/j.jmsy.2021.04.008
+
+- title: "Human Motion Recognition and Prediction for Robot Control"
+  date: 2021-01-01
+  authors: "Robert X. Gao, Lihui Wang, Peng Wang, Jianjing Zhang, Hongyi Liu"
+  venue: "Springer book chapter"
+  type: chapter
+  year: 2021
+  doi: https://doi.org/10.1007/978-3-030-69178-3_11
+

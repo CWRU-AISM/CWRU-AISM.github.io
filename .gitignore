@@ -1,0 +1,10 @@
+_site/
+.jekyll-cache/
+.bundle/
+vendor/
+Gemfile.lock
+spec.md
+context/
+headshots/
+videos/
+.remember/
