@@ -266,3 +266,28 @@ a.tile:focus-visible { outline-offset: -3px; z-index: 1; }
 
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
 @media (max-width: 600px) { .news li { grid-template-columns: 1fr; gap: 2px; } }
+
+/* People page: two captioned lab group photos */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  max-width: 900px;
+  margin: 32px auto 0;
+}
+.photo-grid .photo { margin: 0; min-width: 0; }
+.photo-grid img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: contain;
+  background: var(--surface);
+}
+.photo-grid figcaption {
+  text-align: center;
+  font-size: var(--step--1);
+  font-weight: 500;
+  margin-top: 8px;
+}
+@media (max-width: 600px) {
+  .photo-grid { grid-template-columns: 1fr; }
+}
