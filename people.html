@@ -48,6 +48,10 @@ permalink: /people/
       {% assign link = p.website | default: p.scholar | default: p.linkedin %}
       <li>{% if link %}<a href="{{ link }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}{% if p.degree %}, {{ p.degree }}{% endif %}
         {% if p.now %}<span class="muted"> Now {{ p.now }}</span>{% endif %}</li>
+        {% if dissertation %}
+          <div class="muted" style="margin-top: 0.3rem; font-size: 0.9em;">
+          <strong>Ph.D. Dissertation:</strong>
+          {{ dissertation | escape }} </div>
       {% endfor %}
     </ul>
   </section>
