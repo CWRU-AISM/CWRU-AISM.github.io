@@ -108,7 +108,7 @@
         url: https://cwru-aism.github.io/triangulang/
 - id: quality
   title: Generalizable Machine Learning for Shop-Floor Deployment
-  short: Data-efficient and physics-informed machine learning that generalizes across manufacturing processes, equipment, materials, and operating conditions.
+  short: Data-efficient and physics-informed ML that generalizes across manufacturing processes, equipment, materials, and operating conditions.
   summary: Machine learning models developed under controlled laboratory conditions often struggle to generalize to real-world manufacturing environments due to domain shifts, limited labeled data, and variations in equipment, materials, and process conditions. We develop generalizable machine learning frameworks that integrate self-supervised representation learning, transfer and continual adaptation, virtual sensing, and manufacturing domain knowledge to enable reliable process monitoring and quality prediction. Our research emphasizes data efficiency, physical consistency, and practical deployment, with applications spanning resistance spot welding, laser welding, and other advanced manufacturing processes.
   media: weld-specimen
   funding: NSF CAREER CMMI-2533634, General Motors
@@ -139,14 +139,14 @@
       url: https://doi.org/10.1007/s40194-025-01951-5
 - id: sensing
   title: Process Monitoring and Quality Assurance for Advanced Manufacturing Processes
-  short: Multimodal sensing, imaging, and physics-based modeling for process understanding, defect characterization, and manufacturing quality assurance.
-  summary: Advanced manufacturing processes involve complex interactions among thermal, mechanical, and material phenomena, making critical process states and quality characteristics difficult to observe directly. We develop multimodal sensing and imaging methods that integrate thermal imaging, optical sensing, geometric measurements, and nondestructive evaluation with data-driven and physics-based models to characterize process dynamics and material quality. Our research focuses on improving process observability, detecting manufacturing anomalies, reconstructing internal defects, and understanding the relationships between processing conditions and final part quality, with particular emphasis on welding, directed energy deposition, and hybrid additive–subtractive manufacturing.
+  short: Multimodal sensing and physics-based modeling for process understanding, defect characterization, and quality assurance.
+  summary: Advanced manufacturing processes involve complex interactions among thermal, mechanical, and material phenomena, making critical process states and quality characteristics difficult to observe directly. We develop multimodal sensing that integrate imaging, geometric measurements, and nondestructive evaluation with data-driven and physics-based models to characterize process dynamics and material quality. Our research focuses on improving process observability, detecting manufacturing anomalies, reconstructing internal defects, and understanding the relationships between processing conditions and final part quality, with particular emphasis on welding, directed energy deposition, and hybrid additive–subtractive manufacturing.
   media: ded
   video: true
   funding: NSF HAMMER Engineering Research Center
   projects:
   - title: Multimodal In-Process Monitoring 
-    text: Combine thermal imaging, optical sensing, and process signals to characterize melt-pool behavior, geometric evolution, and process instabilities.
+    text: Combine imaging and process signals to characterize melt-pool behavior, geometric evolution, and process instabilities.
   - title: Ultrasonic Imaging and Internal Defect Characterization
     text: Develop efficient, generalizable ultrasonic imaging methods for high-resolution reconstruction and characterization of internal defects.
     papers:
