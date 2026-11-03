@@ -10,9 +10,12 @@
   media: motor-rig
   funding: NSF PFI-TT 2535434, NSF CMMI-2015889
   projects:
-  - title: Context-Aware Self-Supervised Learning
+  - title: Context-Aware Self-Supervised Continual Learning
     text: Leverage operating-condition information to learn transferable machinery health representations with minimal labeled fault data.
     papers:
+    - title: 'Mixed-Up Experience Replay for Adaptive Online Condition Monitoring'
+      venue: IEEE Trans. Industrial Electronics 2023
+      url: https://doi.org/10.1109/TIE.2023.3260351
     - title: 'Context-Aware Self-Supervised Learning for Machinery Fault Diagnosis: Extending Barlow Twins with Operating Condition Awareness'
       venue: Manufacturing Letters 2026
       url: https://doi.org/10.1016/j.mfglet.2026.08.027
@@ -142,7 +145,7 @@
   video: true
   funding: NSF HAMMER Engineering Research Center
   projects:
-  - title: Multimodal In-Process Monitoring and Thermal Imaging
+  - title: Multimodal In-Process Monitoring 
     text: Combine thermal imaging, optical sensing, and process signals to characterize melt-pool behavior, geometric evolution, and process instabilities.
   - title: Ultrasonic Imaging and Internal Defect Characterization
     text: Develop efficient, generalizable ultrasonic imaging methods for high-resolution reconstruction and characterization of internal defects.
@@ -152,3 +155,6 @@
       url: https://doi.org/10.1109/jsen.2026.3702503
   - title: Process Characterization in Hybrid Additive–Subtractive Manufacturing
     text: Integrate in-situ sensing and thermo-mechanical modeling to investigate geometric accuracy, residual stress, and deposition–milling interactions.
+    papers:
+    - title: Residual Stress Formation and Redistribution in Hybrid DED-Milling Processes: A Numerical Study
+      venue: International Symposium on Flexible Automation 2026
