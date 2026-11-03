@@ -8,7 +8,7 @@
   short: Adaptive, data-efficient machine condition monitoring through self-supervised learning and affordable edge–cloud systems.
   summary: Industrial predictive maintenance faces persistent challenges arising from limited labeled fault data, changing operating conditions, and heterogeneous machinery. We develop self-supervised, continual, and personalized federated learning methods that extract transferable health representations from predominantly unlabeled operational data, enabling robust fault detection and diagnosis across machines and working environments. These methods are integrated with low-cost sensing hardware and edge–cloud computing architectures to make intelligent condition monitoring practical, scalable, and affordable for industrial deployment.
   media: motor-rig
-  funding: NSF PFI-TT 2535434, NSF CMMI-2015889
+  funding: NSF PFI-TT 2535434, NSF CMMI-2529773
   projects:
   - title: Context-Aware Self-Supervised Continual Learning
     text: Leverage operating-condition information to learn transferable machinery health representations with minimal labeled fault data.
@@ -43,7 +43,7 @@
   summary: We construct robots whose behavior can be verified, interrupted, and repaired.
   media: spark_real
   video: true
-  funding: NSF FRR 2617581 (industrial collaborator Miller Electric), NSF NRI CMMI-2024614, NSF GRFP 2437833, NVIDIA Academic Grant
+  funding: NSF FRR 2617581, NSF NRI CMMI-2024614, NSF GRFP 2437833, NVIDIA Academic Grant
   projects:
   - title: Embodied agentic robots
     text: Develop robots that plan verifiable actions, detect failures, and recover autonomously across robotic platforms.
