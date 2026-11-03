@@ -40,22 +40,41 @@ permalink: /people/
   </section>
   {% endif %}{% endfor %}
 
-  {% for g in site.data.people.alumni %}{% if g.members.size > 0 %}
-  <section class="group">
-    <h2>{{ g.title }}</h2>
-    <ul class="alumni">
-      {% for p in g.members %}
-      {% assign link = p.website | default: p.scholar | default: p.linkedin %}
-      <li>{% if link %}<a href="{{ link }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}{% if p.degree %}, {{ p.degree }}{% endif %}
-        {% if p.now %}<span class="muted"> Now {{ p.now }}</span>{% endif %}</li>
-        {% if dissertation %}
-          <div class="muted" style="margin-top: 0.3rem; font-size: 0.9em;">
+{% for g in site.data.people.alumni %}
+{% if g.members.size > 0 %}
+<section class="group">
+  <h2>{{ g.title }}</h2>
+  <ul class="alumni">
+    {% for p in g.members %}
+    {% assign link = p.website | default: p.scholar | default: p.linkedin %}
+    {% assign dissertation = p["Ph.D. Dissertation"] %}
+
+    <li>
+      {% if link %}
+        <a href="{{ link }}">{{ p.name | escape }}</a>
+      {% else %}
+        {{ p.name | escape }}
+      {% endif %}
+
+      {% if p.degree %}, {{ p.degree | escape }}{% endif %}
+
+      {% if p.now %}
+        <span class="muted"> Now {{ p.now | escape }}</span>
+      {% endif %}
+
+      {% if dissertation %}
+        <div class="muted" style="margin-top: 0.3rem; font-size: 0.9em;">
           <strong>Ph.D. Dissertation:</strong>
-          {{ dissertation | escape }} </div>
-      {% endfor %}
-    </ul>
-  </section>
-  {% endif %}{% endfor %}
+          {{ dissertation | escape }}
+        </div>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endfor %}
+
   <figure class="photo photo-end">
     <img src="{{ '/assets/img/lab/group.jpg' | relative_url }}" alt="Lab members around a dinner table">
   </figure>
