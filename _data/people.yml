@@ -47,6 +47,12 @@ groups:
       - name: Logan Senning
         photo: logan-senning.jpg
         linkedin: https://www.linkedin.com/in/logan-senning/
+      - name: Drew Tobias
+        photo: Drew-Tobias.jpg
+        linkedin: https://www.linkedin.com/in/joseph-drew-tobias/
+      - name: Tanush Anand
+        photo: Tanush-Anand.jpg
+        linkedin: https://www.linkedin.com/in/tanush-anand/
 
 # Alumni are shown as a plain list, no photos.
 alumni:
