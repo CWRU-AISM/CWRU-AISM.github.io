@@ -71,10 +71,19 @@ alumni:
         degree: PhD
         now: Technical Lead, Leidos
         linkedin: https://www.linkedin.com/in/matthew-b-russell/
-
+      - name: Joseph Kershaw
+        degree: PhD
+        now: Postdoctoral Researcher, University of Kentucky
+        linkedin: https://ism.engr.uky.edu/people/joseph-kershaw-0
+      - name: Srinivasa-Rao Ippili
+        degree: PhD
+        now: Acoustics and Vibration Consultant
+        linkedin: https://www.linkedin.com/in/ippilisrinivasarao/
   - title: MS and Undergraduate Alumni
     members:
       - name: Minh Le
         degree: MS 2026, co-advised with John Lewandowski
       - name: Ethan York
-        degree: MS
+        degree: MS 2024
+      - name: Cheng Han
+        degree: MS 2026

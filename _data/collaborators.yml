@@ -36,8 +36,8 @@
   lat: 42.803
   lon: -73.873
   url: https://www.ge.com/research/
-- name: Dongguk University
-  place: Seoul, South Korea
-  lat: 37.558
-  lon: 126.999
-  url: https://www.dongguk.edu/eng/
+# - name: Dongguk University
+#   place: Seoul, South Korea
+#   lat: 37.558
+#   lon: 126.999
+#   url: https://www.dongguk.edu/eng/
