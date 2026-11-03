@@ -53,37 +53,45 @@ alumni:
   - title: PhD and Postdoc Alumni
     members:
       - name: Izaz Raouf
-        degree: Postdoc
+        degree: Postdoc 2026
         now: Research Scientist, General Motors
         linkedin: https://www.linkedin.com/in/izaz-r-448263209/
       - name: Saleh Valizadeh Sotubadi
-        degree: Postdoc 
+        degree: Postdoc 2026
         now: Senior Research, General Motors
         Linkedin: "https://www.linkedin.com/in/saleh-valizadeh-sotubadi-9a5905177/"
       - name: Ali Hosseinzadeh
-        degree: Postdoc 
+        degree: Postdoc 2025
         now: Data Scientist, Ford
-        Linkedin: https://www.linkedin.com/in/ali-hosseinzadeh-ph-d-6099b2116/
+        Linkedin: "https://www.linkedin.com/in/ali-hosseinzadeh-ph-d-6099b2116/"
       - name: Ruyi Huang
-        degree: Postdoc 
+        degree: Postdoc 2025
         now: Postdoctoral Fellow, City University of Hong Kong
+      - name: Srinivasa-Rao Ippili
+        degree: PhD 2024, co-advised with David Herrin
+        Ph.D. Dissertation: "Artificial Intelligence Enabled Machinery Fault Detection and Diagnosis Using Vibro-Acoustic Signals"
+        now: Acoustics and Vibration Consultant
+        linkedin: https://www.linkedin.com/in/ippilisrinivasarao/
       - name: Matthew Russell
-        degree: PhD
+        degree: PhD 2023
+        Ph.D. Dissertation: "Generalizable and Adaptable Data-Driven Methods for Overcoming Barriers to Practical Industrial Condition Monitoring"
         now: Technical Lead, Leidos
         linkedin: https://www.linkedin.com/in/matthew-b-russell/
       - name: Joseph Kershaw
-        degree: PhD
+        degree: PhD 2023
+        Ph.D. Dissertation: "Machine Learning for Advancing Automation and Quality Control in Robotic Welding"
         now: Postdoctoral Researcher, University of Kentucky
         linkedin: https://ism.engr.uky.edu/people/joseph-kershaw-0
-      - name: Srinivasa-Rao Ippili
-        degree: PhD
-        now: Acoustics and Vibration Consultant
-        linkedin: https://www.linkedin.com/in/ippilisrinivasarao/
   - title: MS and Undergraduate Alumni
     members:
       - name: Minh Le
         degree: MS 2026, co-advised with John Lewandowski
-      - name: Ethan York
-        degree: MS 2024
       - name: Cheng Han
         degree: MS 2026
+      - name: Ethan York
+        degree: MS 2024
+      - name: Jason Altman
+        degree: MS 2024
+      - name: Yuming Wang
+        degree: MS 2022
+
