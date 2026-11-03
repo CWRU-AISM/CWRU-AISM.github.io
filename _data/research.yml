@@ -11,13 +11,13 @@
   funding: NSF PFI-TT 2535434, NSF CMMI-2015889
   projects:
   - title: Context-Aware Self-Supervised Learning
-    text: Develop self-supervised representation learning methods that leverage operating-condition information as weak supervision to identify machinery health states with minimal labeled fault data.
+    text: Leverage operating-condition information to learn transferable machinery health representations with minimal labeled fault data.
     papers:
     - title: 'Context-Aware Self-Supervised Learning for Machinery Fault Diagnosis: Extending Barlow Twins with Operating Condition Awareness'
       venue: Manufacturing Letters 2026
       url: https://doi.org/10.1016/j.mfglet.2026.08.027
   - title: Federated and Cross-Machine Condition Monitoring
-    text: Develop personalized federated learning and domain-adaptive monitoring frameworks that improve model transferability across equipment and operating conditions while accommodating machine-specific characteristics.
+    text: Combine personalized federated learning and domain adaptation for reliable condition monitoring across machines and operating conditions.
     papers:
     - title: A generalizable framework of personalized federated learning for condition monitoring of rotating machinery
       venue: Advanced Engineering Informatics 2026
@@ -29,7 +29,7 @@
       venue: Journal of Manufacturing Systems 2023
       url: https://doi.org/10.1016/j.jmsy.2023.09.008
   - title: Edge–Cloud Predictive Maintenance
-    text: Integrate lightweight machine learning models with affordable sensing devices and edge–cloud architectures to support continuous monitoring, efficient inference, and practical deployment in industrial environments.
+    text: Integrate lightweight learning models with affordable sensing devices and edge–cloud systems for continuous industrial condition monitoring.
     papers:
     - title: A Deployable Edge Computing Solution for Machine Condition Monitoring
       venue: I2MTC 2024
@@ -43,7 +43,7 @@
   funding: NSF FRR 2617581 (industrial collaborator Miller Electric), NSF NRI CMMI-2024614, NSF GRFP 2437833, NVIDIA Academic Grant
   projects:
   - title: Embodied agentic robots
-    text: Robots that plan in steps they can check and recover from, on different arms.
+    text: Develop robots that plan verifiable actions, detect failures, and recover autonomously across robotic platforms.
     papers:
     - title: Sequential Planning via Anchored Robotic Keypoints
       venue: Preprint
@@ -54,12 +54,12 @@
       - label: Project page
         url: https://cwru-aism.github.io/spark-page/
   - title: Anticipatory robotic welding
-    text: World models that predict how a weld will form, and planners that act on them. A new NSF project with the University of Kentucky and Miller Electric.
+    text: Develop predictive world models and adaptive planning methods to anticipate weld evolution and guide robotic welding decisions.
     links:
     - label: NSF award 2617581
       url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2617581
   - title: Interpretability of robot policies
-    text: What robot policies and world models rely on when they act.
+    text: Investigate how visual, linguistic, and internal representations influence robot policy behavior and decision-making.
     papers:
     - title: 'Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models'
       venue: NeurIPS 2026
@@ -83,7 +83,7 @@
       venue: Blog post
       url: https://bryceag11.github.io/blog/wam-imagination/
   - title: Geometry-aware perception
-    text: Perception that accounts for rotation and for geometry across camera views.
+    text: Develop rotation-aware perception and multi-view geometric reasoning for robust object localization and robotic manipulation.
     papers:
     - title: Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection
       venue: IROS 2025, oral
@@ -111,7 +111,7 @@
   funding: NSF CAREER CMMI-2533634, General Motors
   projects:
   - title: Learning from Unlabeled Manufacturing Data
-    text: Develop hierarchical contrastive learning and other self-supervised pretraining approaches to extract transferable process representations from large-scale unlabeled production data, reducing dependence on costly quality annotations.
+    text: Develop self-supervised learning methods to extract transferable process representations from unlabeled manufacturing data.
     papers:
     - title: 'Unleashing the power of unlabeled plant data: A hierarchical contrastive learning framework for dynamic manufacturing process monitoring'
       venue: Journal of Manufacturing Systems 2025
@@ -120,7 +120,7 @@
       venue: Journal of Manufacturing Processes 2025
       url: https://doi.org/10.1016/j.jmapro.2025.12.023
   - title: Transferable Virtual Sensing and Quality Prediction
-    text: Develop data-driven virtual sensing and transfer learning methods to infer difficult-to-measure process variables and predict quality outcomes using available industrial sensing signals, while improving adaptability across machines and operating conditions.
+    text: Infer unmeasured process variables and predict manufacturing quality using available sensor signals and transferable learning models.
     papers:
     - title: Transfer learning-enhanced transformer for virtual process sensing in resistance spot welding
       venue: Manufacturing Letters 2025
@@ -129,7 +129,7 @@
       venue: ISFA 2024
       url: https://doi.org/10.1115/isfa2024-140071
   - title: Physics-Informed and Generalizable Manufacturing Models
-    text: Investigate physics-informed representation learning and foundation-model approaches that incorporate manufacturing knowledge to enhance model transferability, robustness, and adaptability across processes, materials, and production environments.
+    text: Integrate manufacturing physics with foundation-model learning to improve generalization across processes, materials, and equipment.
     papers:
     - title: Applicable and generalizable machine learning for intelligent welding in automotive manufacturing
       venue: Welding in the World 2025
@@ -143,12 +143,12 @@
   funding: NSF HAMMER Engineering Research Center
   projects:
   - title: Multimodal In-Process Monitoring and Thermal Imaging
-    text: Integrate thermal imaging, optical sensing, and process signals to characterize melt-pool dynamics, thermal behavior, geometric evolution, and process instabilities, enabling improved understanding of manufacturing process behavior and observable quality deviations.
+    text: Combine thermal imaging, optical sensing, and process signals to characterize melt-pool behavior, geometric evolution, and process instabilities.
   - title: Ultrasonic Imaging and Internal Defect Characterization
-    text: Develop data-driven ultrasound image reconstruction methods, including conditional normalizing flows, to enable efficient, high-resolution characterization of internal defects and improve generalization across materials and inspection configurations.
+    text: Develop efficient, generalizable ultrasonic imaging methods for high-resolution reconstruction and characterization of internal defects.
     papers:
     - title: Conditional Normalizing Flows for High-Resolution and Efficient Ultrasound Image Reconstruction
       venue: IEEE Sensors Journal 2026
       url: https://doi.org/10.1109/jsen.2026.3702503
   - title: Process Characterization in Hybrid Additive–Subtractive Manufacturing
-    text: Combine in-situ sensing, geometric scanning, and thermo-mechanical modeling to investigate deposition stability, geometric accuracy, residual-stress evolution, and the interactions between material addition and removal in hybrid manufacturing processes.
+    text: Integrate in-situ sensing and thermo-mechanical modeling to investigate geometric accuracy, residual stress, and deposition–milling interactions.
