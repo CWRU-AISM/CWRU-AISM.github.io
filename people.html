@@ -33,6 +33,7 @@ permalink: /people/
         {% else %}{% assign initials = p.name | slice: 0 %}<span class="avatar avatar-empty" aria-hidden="true">{{ initials }}</span>{% endif %}
         <span class="person-name">{{ p.name }}</span>
         {% if link %}</a>{% endif %}
+        {% if p.program and p.start_year %}<p class="person-meta">{{ p.program | escape }} Student · Started {{ p.start_year }}</p>{% endif %}
         {% if p.note %}<p class="person-note">{{ p.note }}</p>{% endif %}
       </li>
       {% endfor %}
