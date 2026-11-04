@@ -11,27 +11,31 @@ groups:
   - title: Postdoctoral Researchers
     members: []
 
-  - title: PhD Students
+  - title: Graduate Students
     members:
-      - name: Xijia Zhao
+      - name: Xijia Zhao, Ph.D., 2023~
         photo: xijia-zhao.jpg
         website: https://xijiazhao.github.io/
         note: Self-supervised learning and edge AI for manufacturing
-      - name: Bryce Grant
+      - name: Bryce Grant, Ph.D., 2024~
         photo: bryce-grant.jpg
         website: https://bryceag11.github.io/
         note: Robot learning and interpretability of robot policies
-      - name: Krittin "Mig" Kulrattanaruks
+      - name: Krittin "Mig" Kulrattanaruks, Ph.D., 2025~
         photo: krittin-kulrattanaruks.jpg
         linkedin: https://www.linkedin.com/in/krittin-kulrat/
         note: Predictive maintenance and machinery fault diagnosis
-      - name: Jiyawei "Yankee" Yang
+      - name: Jiyawei "Yankee" Yang, Ph.D., 2025~
         linkedin: https://www.linkedin.com/in/jiyawei-yang-3422a3324/
         note: Ultrasonic imaging of internal defects
-      - name: Chenxing Liu
+      - name: Chenxing Liu, Ph.D., 2025~
         photo: chenxing-liu.jpg
         linkedin: https://www.linkedin.com/in/chenxing-liu-a15916409/
         note: Wire-laser directed energy deposition
+      - name: Dakin Mulhner, M.S., 2026~
+        photo: dakin-mulhner.jpg
+        linkedin: https://www.linkedin.com/in/dakin-muhlner/
+        note: Robotic automation for manufacturing systems
 
   - title: Collaborators
     members: []
